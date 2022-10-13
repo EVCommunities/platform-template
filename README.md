@@ -1,7 +1,10 @@
-# Platform Manager
+# Template for the SimCES platform
 
-Platform Manager handles starting new simulations for the simulation platform.
+Template that can be used as a starting point when running simulations using [SimCES platform](https://simcesplatform.github.io).
 
-For information about Platform Manager see the documentation: [https://simcesplatform.github.io/core_platformmanager/](https://simcesplatform.github.io/core_platformmanager/)
+The background folder has been removed, meaning that the following background components are already available for new simulation runs:
 
-Instructions on how to use Platform Manager as a part of the simulation platform: [https://simcesplatform.github.io/core_install/](https://simcesplatform.github.io/core_install/)
+- MongoDB
+- RabbitMQ
+- Log reader
+- Log writer for the management exchange
