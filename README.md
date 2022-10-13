@@ -2,7 +2,7 @@
 
 Template that can be used as a starting point when running simulations using [SimCES platform](https://simcesplatform.github.io).
 
-The background folder has been removed, meaning that the following background components are already available for new simulation runs:
+The background folder has been removed, meaning that it is assumed that the following background components are already available for new simulation runs:
 
 - MongoDB
 - RabbitMQ
